@@ -1,9 +1,9 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-import {Text} from 'react-native';
+import { Text } from 'react-native';
 
 const Home = () => {
-  return <Text>Home</Text>;
+    return <Text>Home</Text>;
 };
 
 export default Home;
