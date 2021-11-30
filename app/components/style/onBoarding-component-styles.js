@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 import styled from 'styled-components';
 import { SafeAreaView, ImageBackground, Text, View, TouchableOpacity } from 'react-native';
+
 export const SafeArea = styled(SafeAreaView)`
   flex: 1;
   position: relative;

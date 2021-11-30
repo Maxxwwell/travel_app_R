@@ -3,7 +3,7 @@ import React from 'react';
 import { StatusBar } from 'react-native';
 import { Button, ButtonText, CustomButton, DecoratedImage, Description, GetStarted, SafeArea, TitleContainer, TitleText } from '../components/style/onBoarding-component-styles';
 
-const Onboarding = ({navigation}) => {
+const Onboarding = ({ navigation }) => {
     return (
         <SafeArea>
             <StatusBar
@@ -23,10 +23,13 @@ const Onboarding = ({navigation}) => {
                 </Description>
 
                 <GetStarted
-                    onPress={()=> navigation.navigate('Home')}
-                    activeOpacity={0.0}
-
-                >
+                    onPress={() => navigation.reset({
+                        index: 0,
+                        routes: [{
+                            name: 'Home',
+                        }],
+                    })}
+                    activeOpacity={0.0}>
                     <ButtonText>
                         Get Started
                     </ButtonText>
