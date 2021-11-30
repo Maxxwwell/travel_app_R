@@ -4,8 +4,8 @@ import styled from 'styled-components';
 
 
 export const CategoriesContainer = styled(View)`
-    margin-top: 40px;
-    margin-horizontal: 30px;
+    margin-top: 50px;
+    margin-horizontal: 20px;
     flex-direction: row;
     justify-content: space-between;
 `;

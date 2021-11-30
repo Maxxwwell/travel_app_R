@@ -1,2 +1,10 @@
 /* eslint-disable prettier/prettier */
-export const sizes = ['4px', '16px', '32px', '64px', '128px'];
+import { Dimensions } from 'react-native';
+ const {width, height} = Dimensions.get('screen');
+ export const SIZES = {
+    base: 10,
+    width,
+    height,
+    
+};
+
