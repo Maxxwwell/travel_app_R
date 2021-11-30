@@ -2,8 +2,11 @@
 import React from 'react';
 import { Text, StatusBar } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
-import { AppBar, Icons, Iconx, InputText, SafeArea, SmalllContainer, TextField, Title } from '../components/style/Home-component-style';
+import ListCat from '../components/model/List_Cat';
+import { AppBar, Iconx, InputText, SafeArea, SmalllContainer, TextField, Title } from '../components/style/Home-component-style';
 import { COLORS } from '../components/theme/colors';
+
+
 
 const Home = () => {
     return (
@@ -29,6 +32,8 @@ const Home = () => {
                     </TextField>
 
                 </SmalllContainer>
+<ListCat></ListCat>
+            
             </ScrollView>
         </SafeArea>
     );

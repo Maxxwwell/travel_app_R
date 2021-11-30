@@ -24,7 +24,7 @@ export const Iconx = styled(Icon)`
 export const SmalllContainer = styled(View)`
     background-color: ${(props) => props.theme.COLORS.primary};
     padding-horizontal: 15px;
-    height: 70%
+    height: 45%
 
 `;
 
@@ -46,5 +46,6 @@ export const TextField = styled(View)`
     height: 50px;
     border-radius: 15px;
     background-color: white;
-    margin-vertical: 10px
+    margin-vertical: 10px;
+    elevation: 10;
 `;
