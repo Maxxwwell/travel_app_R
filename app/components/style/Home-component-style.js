@@ -39,6 +39,7 @@ export const BodyText = styled(Text)`
     color: ${(props) => props.theme.COLORS.black};
     font-weight: bold;
     padding-bottom: 10px;
+    margin-top: 5px
 `;
 
 export const InputText = styled(TextInput)`

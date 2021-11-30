@@ -37,7 +37,6 @@ export const ButtonText = styled(Text)`
     font-weight: 700;
     width: 50%;
     color: ${(props) => props.theme.COLORS.black};
-    
 `;
 
 export const GetStarted = styled(TouchableOpacity)`

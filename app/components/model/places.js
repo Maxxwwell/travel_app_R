@@ -5,6 +5,7 @@ const places = [
     name: 'Lago di Braies, Braies',
     location: 'Italy',
     image: require('../../assets/images/location1.jpg'),
+    ratings: 4,
     details:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat nisl vel pretium lectus quam id leo. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Justo laoreet sit amet cursus sit.',
   },
@@ -13,6 +14,7 @@ const places = [
     name: 'Siargao island',
     location: 'Philippines',
     image: require('../../assets/images/location2.jpg'),
+    ratings: 5,
     details:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat nisl vel pretium lectus quam id leo. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Justo laoreet sit amet cursus sit.',
   },
@@ -21,6 +23,7 @@ const places = [
     name: 'Manarola',
     location: 'Italy',
     image: require('../../assets/images/location3.jpg'),
+    ratings: 4,
     details:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat nisl vel pretium lectus quam id leo. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Justo laoreet sit amet cursus sit.',
   },
@@ -29,6 +32,7 @@ const places = [
     name: 'Perhentian Islands',
     location: 'Malaysia',
     image: require('../../assets/images/location4.jpg'),
+    ratings: 5,
     details:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat nisl vel pretium lectus quam id leo. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Justo laoreet sit amet cursus sit.',
   },
