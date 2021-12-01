@@ -4,6 +4,7 @@ import { Text, StatusBar } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 import ListCat from '../components/List_Cat';
 import PlacesCard from '../components/Place_Card';
+import Recommended_Card from '../components/Recommended_Card';
 import { AppBar, BodyContainer, BodyText, Iconx, InputText, SafeArea, SmalllContainer, TextField, Title } from '../components/style/Home-component-style';
 import { COLORS } from '../components/theme/colors';
 
@@ -21,7 +22,7 @@ const Home = () => {
                 <Iconx name="notifications" size={25} color={COLORS.white} />
             </AppBar>
 
-            <ScrollView showsVerticalScrollIndicator={false}>
+            
 
                 <SmalllContainer>
                     <Title>Explore the</Title>
@@ -35,15 +36,17 @@ const Home = () => {
 
                 <ListCat />
 
+                <ScrollView>
                 <BodyContainer>
                     <BodyText>Places</BodyText>
                     <PlacesCard />
-                    <BodyText>Recommended</BodyText>
 
+                    <BodyText>Recommended</BodyText>
+                    <Recommended_Card />
 
                 </BodyContainer>
-
-            </ScrollView>
+                </ScrollView>
+            
         </SafeArea>
     );
 };

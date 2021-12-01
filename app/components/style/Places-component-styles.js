@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 import { FlatList, Image, View, Text, ImageBackground } from 'react-native';
 import styled from 'styled-components';
+
 export const PlacesList = styled(FlatList)`
 `;
 
@@ -8,7 +9,6 @@ export const CardImage = styled(ImageBackground)`
     height: 220px
     width: 190px;
     margin-right: 10px;
-    
 `;
 
 export const PlaceText = styled(Text)`

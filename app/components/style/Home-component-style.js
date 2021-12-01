@@ -24,7 +24,7 @@ export const Iconx = styled(Icon)`
 export const SmalllContainer = styled(View)`
     background-color: ${(props) => props.theme.COLORS.primary};
     padding-horizontal: 15px;
-    height: 20%
+    height: 15%
 `;
 
 export const Title = styled(Text)`
