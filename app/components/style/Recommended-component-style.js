@@ -9,5 +9,5 @@ export const  RecommendedList = styled(FlatList)`
 
 export const CardImage = styled(ImageBackground)`
     height: 250px
-    width: 200px;
+    width: 99%
 `;

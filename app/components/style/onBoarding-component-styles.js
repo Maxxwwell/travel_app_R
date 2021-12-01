@@ -25,7 +25,7 @@ export const TitleText = styled(Text)`
 `;
 
 export const Description = styled(Text)`
-    font-size: ${(props) => props.theme.FONTSIZES.body};
+    font-size: ${({theme}) => theme.FONTSIZES.body};
     color: ${(props) => props.theme.COLORS.white};
     font-weight: 400;
     width: 50%
@@ -33,10 +33,10 @@ export const Description = styled(Text)`
 `;
 
 export const ButtonText = styled(Text)`
-    font-size: ${(props) => props.theme.FONTSIZES.button};
+    font-size: ${({theme}) => theme.FONTSIZES.button};
     font-weight: 700;
     width: 50%;
-    color: ${(props) => props.theme.COLORS.black};
+    color: ${({theme}) => theme.COLORS.black};
 `;
 
 export const GetStarted = styled(TouchableOpacity)`
