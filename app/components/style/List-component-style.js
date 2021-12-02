@@ -13,7 +13,7 @@ export const CategoriesContainer = styled(View)`
 export const IconsList = styled(View)`
 height: 60px;
 width: 60px;
-background-color: ${(props) => props.theme.COLORS.secondary};
+background-color: ${({theme}) => theme.COLORS.secondary};
 justify-content: center;
 align-items: center;
 border-radius: 10px;

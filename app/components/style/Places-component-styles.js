@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-import { FlatList, Image, View, Text, ImageBackground } from 'react-native';
+import { FlatList, View, Text, ImageBackground } from 'react-native';
 import styled from 'styled-components';
 
 export const PlacesList = styled(FlatList)`
@@ -12,12 +12,12 @@ export const CardImage = styled(ImageBackground)`
 `;
 
 export const PlaceText = styled(Text)`
-    font-size: ${(props) => props.theme.FONTSIZES.body};
+    font-size: ${({theme}) => theme.FONTSIZES.body};
     font-weight: 600;
     margin-bottom: 5px
     margin-left: 2px;
     margin-right: 5px;
-    color: ${(props) => props.theme.COLORS.white};
+    color: ${({theme}) => theme.COLORS.white};
 `;
 export const Icon_Text = styled(View)`
     flex-direction: row;
@@ -30,3 +30,4 @@ export const IconsContainer = styled(View)`
     align-items: flex-end;
     flex-direction: row;
 `;
+

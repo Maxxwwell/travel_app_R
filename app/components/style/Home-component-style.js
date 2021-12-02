@@ -14,7 +14,7 @@ export const AppBar = styled(View)`
     padding-horizontal: 15px;
     flex-direction: row;
     justify-content: space-between;
-    background-color: ${(props) => props.theme.COLORS.primary};
+    background-color: ${({theme}) => theme.COLORS.primary};
 `;
 
 export const Iconx = styled(Icon)`
@@ -22,21 +22,21 @@ export const Iconx = styled(Icon)`
 `;
 
 export const SmalllContainer = styled(View)`
-    background-color: ${(props) => props.theme.COLORS.primary};
+    background-color: ${({theme}) => theme.COLORS.primary};
     padding-horizontal: 15px;
     height: 15%
 `;
 
 export const Title = styled(Text)`
-    font-size: ${(props) => props.theme.FONTSIZES.h5};
-    color: ${(props) => props.theme.COLORS.white};
+    font-size: ${({theme}) => theme.FONTSIZES.h5};
+    color: ${({theme}) => theme.COLORS.white};
     font-weight: 500;
 `;
 
 
 export const BodyText = styled(Text)`
-    font-size: ${(props) => props.theme.FONTSIZES.body};
-    color: ${(props) => props.theme.COLORS.black};
+    font-size: ${({theme}) => theme.FONTSIZES.body};
+    color: ${({theme}) => theme.COLORS.black};
     font-weight: bold;
     padding-bottom: 10px;
     margin-top: 5px

@@ -10,43 +10,40 @@ import { COLORS } from '../components/theme/colors';
 
 
 
-const Home = () => {
+const Home = ({ navigation }) => {
     return (
         <SafeArea>
 
             <StatusBar
-                animated={true}
+                animated={false}
                 backgroundColor={COLORS.primary} />
             <AppBar>
                 <Iconx name="menu" size={25} color={COLORS.white} />
                 <Iconx name="notifications" size={25} color={COLORS.white} />
             </AppBar>
 
-            
+            <SmalllContainer>
+                <Title>Explore the</Title>
+                <Title>beautiful places</Title>
 
-                <SmalllContainer>
-                    <Title>Explore the</Title>
-                    <Title>beautiful places</Title>
+                <TextField>
+                    <Iconx name="search-circle" size={35} color={COLORS.black} />
+                    <InputText placeholder="Search place" />
+                </TextField>
+            </SmalllContainer>
 
-                    <TextField>
-                        <Iconx name="search-circle" size={35} color={COLORS.black} />
-                        <InputText placeholder="Search place" />
-                    </TextField>
-                </SmalllContainer>
-
-                <ListCat />
-
-                <ScrollView>
+            <ListCat />
+            <ScrollView>
                 <BodyContainer>
                     <BodyText>Places</BodyText>
-                    <PlacesCard />
+                    <PlacesCard navigation={navigation} />
 
                     <BodyText>Recommended</BodyText>
-                    <Recommended_Card />
+                    <Recommended_Card navigation={navigation} />
 
                 </BodyContainer>
-                </ScrollView>
-            
+            </ScrollView>
+
         </SafeArea>
     );
 };

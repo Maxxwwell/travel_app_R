@@ -8,7 +8,7 @@ import Home from './screens/Home';
 import Details from './screens/Details';
 import { theme } from './components/theme';
 import { ThemeProvider } from 'styled-components';
-
+import recommended_details from './screens/recommended_details';
 
 
 const Stack = createStackNavigator();
@@ -23,6 +23,7 @@ const App = () => {
           <Stack.Screen name="Onboarding" component={Onboarding} />
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="Details" component={Details} />
+          <Stack.Screen name="recommended_Details" component={recommended_details} />
         </Stack.Navigator>
 
       </NavigationContainer>

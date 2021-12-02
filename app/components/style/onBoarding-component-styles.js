@@ -19,14 +19,14 @@ padding-horizontal: 20px;
 `;
 
 export const TitleText = styled(Text)`
-    font-size: ${(props) => props.theme.FONTSIZES.h3};
-    color: ${(props) => props.theme.COLORS.white};
+    font-size: ${({theme}) => theme.FONTSIZES.h3};
+    color: ${({theme}) => theme.COLORS.white};
     font-weight: bold;
 `;
 
 export const Description = styled(Text)`
     font-size: ${({theme}) => theme.FONTSIZES.body};
-    color: ${(props) => props.theme.COLORS.white};
+    color: ${({theme}) => theme.COLORS.white};
     font-weight: 400;
     width: 50%
     opacity: 0.8
@@ -42,7 +42,7 @@ export const ButtonText = styled(Text)`
 export const GetStarted = styled(TouchableOpacity)`
     height: 55px;
     width: 28%
-    background-color: ${(props) => props.theme.COLORS.white};
+    background-color: ${({theme}) => theme.COLORS.white};
     align-items: center;
     justify-content: center;
     elevation: 5;

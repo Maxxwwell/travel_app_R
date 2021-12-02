@@ -29,7 +29,7 @@ const Onboarding = ({ navigation }) => {
                             name: 'Home',
                         }],
                     })}
-                    activeOpacity={0.0}>
+                    activeOpacity={0.7}>
                     <ButtonText>
                         Get Started
                     </ButtonText>
