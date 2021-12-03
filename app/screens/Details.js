@@ -15,7 +15,6 @@ const Details = ({ navigation, route }) => {
       <SafeArea >
         <StatusBar translucent
           backgroundColor="rgba(0,0,0,0)" />
-        <StatusBar />
         <DetaiImage source={place.image}>
 
           <AppBar>

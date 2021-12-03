@@ -48,5 +48,4 @@ export const GetStarted = styled(TouchableOpacity)`
     elevation: 5;
     border-radius:10px;
     marginTop: 40px
-    
 `;
